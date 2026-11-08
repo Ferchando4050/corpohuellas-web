@@ -1,0 +1,20 @@
+# Local/editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# Dependencies and local environment
+node_modules/
+.env
+.env.*
+!.env.example
+
+# Private keys and credential exports
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+token.json
